@@ -1,0 +1,33 @@
+.red{
+  color: red;
+}
+
+.full-height{
+  height: 100vh;
+}
+
+.box-base{
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.font-size-50{
+  font-size: 50px;
+}
+
+input[type=checkbox]{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  border: none;
+}
+
+input[type=checkbox]:focus{
+  border: 0;
+  outline: none;
+}
+
+input[type=checkbox]:checked{
+  color: red;
+}
